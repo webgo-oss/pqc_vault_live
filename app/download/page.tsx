@@ -9,7 +9,7 @@ type OSKey = "win" | "mac" | "lin";
 
 export default function DownloadPage() {
   const [activeOS, setActiveOS] = useState<OSKey>("win");
-  const downloadlink="https://github.com/webgo-oss/pqc_vault_exe/releases/download/v1.5/PQC_Vault.exe";
+  const downloadlink="https://github.com/webgo-oss/pqc_vault_exe/releases/download/v1.5/PQC_Vault.zip";
   const osMap = {
     win: {
       name: "PQC_Vault.exe",
