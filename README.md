@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  PQC Vault Web — Official Website
 
-## Getting Started
+The official **web interface and landing page** for **PQC Vault**, built with **Next.js**.  
+It provides a modern UI for downloading the application, exploring features, and guiding users through setup.
 
-First, run the development server:
+🔗 **Live Website:** https://pqc-vault-live.vercel.app  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+##  Overview
+
+PQC Vault Web is a **frontend platform** designed to:
+
+- Showcase the PQC Vault project
+- Provide **direct download access** to the app
+- Explain features & workflow
+- Deliver a clean UI experience
+
+---
+
+##  Features
+
+-  Modern UI (Next.js + React)
+-  Direct Download Page (Windows installer)
+-  Navigation (Home, Docs, Download)
+-  Custom Styled Components
+-  Interactive UI / Visual Effects
+-  Security-focused branding (PQC theme)
+
+---
+
+##  Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Styling:** CSS / Modules , Tailwindcss
+- **Deployment:** Vercel
+- **Icons:** Bootstrap Icons / Devicon
+
+---
+
+##  Download Integration
+
+The website uses GitHub Releases for downloading the app:
+
+```
+  https://github.com/webgo-oss/pqc_vault_exe/releases/download/v1.5/PQC_Vault.exe
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  Pages
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Page | Description |
+|------|------------|
+| `/` | Landing page |
+| `/download` | Download installer |
+| `/docs` | Documentation |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+##  Security Note
 
-To learn more about Next.js, take a look at the following resources:
+- No sensitive data is stored in frontend  
+- All encryption happens in CLI app  
+- Website is only for **UI + distribution**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔗 Related Project
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Core CLI Vault:  
+https://github.com/webgo-oss/pqc_vault_exe
